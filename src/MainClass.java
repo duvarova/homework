@@ -1,9 +1,10 @@
 public class MainClass {
-    private int class_number() {
-        return 20;
+    private String class_string (){
+        return "Hello, world";
     }
-    public int getClassNumber()
+
+    public String getClassString()
     {
-        return this.class_number();
+        return this.class_string();
     }
 }

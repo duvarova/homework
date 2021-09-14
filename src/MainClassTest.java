@@ -3,12 +3,13 @@ import org.junit.Test;
 public class MainClassTest extends MainClass
 {
     @Test
-    public void testGetClassNumber()
+    public void testGetClassString()
     {
-        int a = this.getClassNumber();
-        if (a > 45){
+        String a = this.getClassString();
+        if (a == "hello" || a == "Hello") {
             System.out.println("Test pass");
-        } else {
+        }else
+        {
             System.out.println("Test fail");
         }
     }
