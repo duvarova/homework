@@ -1,10 +1,8 @@
 public class MainClass {
-    private String class_string (){
-        return "Hello, world";
-    }
+    private String class_string = "Hello, world";
 
     public String getClassString()
     {
-        return this.class_string();
+        return this.class_string;
     }
 }

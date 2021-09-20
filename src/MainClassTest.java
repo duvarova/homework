@@ -6,11 +6,11 @@ public class MainClassTest extends MainClass
     public void testGetClassString()
     {
         String a = this.getClassString();
-        if (a == "hello" || a == "Hello") {
-            System.out.println("Test pass");
-        }else
-        {
+        if (a.indexOf("hello") == -1 && a.indexOf("Hello") == -1) {
             System.out.println("Test fail");
+        } else
+        {
+            System.out.println("Test pass");
         }
     }
 }
